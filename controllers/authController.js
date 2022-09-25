@@ -136,7 +136,7 @@ exports.forgotPassword = async (req, res, next) => {
   const resetURL = `${req.protocol}://${req.get(
     'host'
   )}/api/v1/resetPassword/${resetToken}`;
-  const message = `Cá vàng quên mật khẩu hả? Vui lòng nhấp vào đây để đặt lại mật khẩu ${resetURL}.\nNếu bạn không quên mật khấu. Vui lòng bỏ qua email này!`;
+  const message = `Vui lòng nhấp vào đây để đặt lại mật khẩu ${resetURL}.\nNếu bạn không quên mật khấu. Vui lòng bỏ qua email này!`;
   try {
     await sendEmail({
       email: user.email,
