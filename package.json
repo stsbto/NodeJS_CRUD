@@ -1,14 +1,14 @@
 {
-  "name": "natours",
+  "name": "expressapi",
   "version": "1.0.0",
-  "description": "Learning node, express and mongoDB",
+  "description": "Nodejs, express and mongoDB",
   "main": "app.js",
   "scripts": {
     "start": "nodemon server.js",
     "start:prod": "set NODE_ENV=production&&nodemon server.js",
     "debug": "ndb server.js"
   },
-  "author": "Jonas Schmedtmann",
+  "author": "Beekoby",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
